@@ -12,14 +12,15 @@ showWinner = (userChoice , compChoice) => {
   else{
     if((userChoice === "rock" && compChoice === "scissor") || (userChoice === "paper" && compChoice === "rock") || (userChoice === "scissor" && compChoice === "paper")){
       msg.innerText = "You Win!!";
+      msg.style.backgroundColor = "red";
       userScore++;
       you.innerText = userScore;
     }
     else if((userChoice === "rock" && compChoice === "paper") || (userChoice === "paper" && compChoice === "scissor") || (userChoice === "scissor" && compChoice === "rock")){
       msg.innerText = "you lost";
+      msg.style.backgroundColor = "red";
       compScore++;
       comp.innerText = compScore;
-
     }
   }
 };
