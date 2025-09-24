@@ -12,7 +12,7 @@ showWinner = (userChoice , compChoice) => {
   else{
     if((userChoice === "rock" && compChoice === "scissor") || (userChoice === "paper" && compChoice === "rock") || (userChoice === "scissor" && compChoice === "paper")){
       msg.innerText = "You Win!!";
-      msg.style.backgroundColor = "red";
+      msg.style.backgroundColor = "green";
       userScore++;
       you.innerText = userScore;
     }
