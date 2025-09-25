@@ -8,6 +8,8 @@ let compScore = 0;
 showWinner = (userChoice , compChoice) => {
   if(userChoice === compChoice) {
     msg.innerText = "Game was draw please try again.";
+    msg.style.backgroundColor = "black";
+
   }
   else{
     if((userChoice === "rock" && compChoice === "scissor") || (userChoice === "paper" && compChoice === "rock") || (userChoice === "scissor" && compChoice === "paper")){
