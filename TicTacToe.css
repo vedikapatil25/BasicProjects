@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 4rem;
+}
+body {
+    background-color: rgb(255, 223, 181);
+    text-align: center;
+    
+}
+.winner{
+     height: 100vmin;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+      font-size: 5rem;
+      gap: 2rem;
+      color: rgb(46, 46, 19);
+}
+.draw {
+    color: black;
+    font-size: 5rem;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+     
+}
+
+#win-msg {
+    font-size: 8vmin;
+    color: rgb(26, 38, 38);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+}
+.game {
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2vmin;
+}.box {
+    width: 18vmin;
+    height: 18vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 53, 35);
+    color: antiquewhite;
+    border: none;
+    border-radius: 1rem;
+    /* box-shadow:  0 0  0.40rem rgba(0 , 0 , 0.1); */
+    font-size: 5rem;
+    margin: 1vmin;
+    gap: 1.5vmin;
+}
+#reset{
+    background-color: black;
+    color: beige;
+    height: 8vmin;
+    width: 20vmin;
+    font-size: 1.30rem;
+}
+#newgame {
+  background-color: black;
+    color: beige;
+    height: 8vmin;
+    width: 20vmin;
+    font-size: 1.30rem;
+  
+}
