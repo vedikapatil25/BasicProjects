@@ -5,6 +5,7 @@ let comp = document.querySelector("#comp-score");
 
 let userScore = 0;
 let compScore = 0;
+
 showWinner = (userChoice , compChoice) => {
   if(userChoice === compChoice) {
     msg.innerText = "Game was draw please try again.";
@@ -22,7 +23,6 @@ showWinner = (userChoice , compChoice) => {
       msg.style.backgroundColor = "red";
       compScore++;
       comp.innerText = compScore;
-
     }
   }
 };
