@@ -1,1 +1,1 @@
-a collection of certain projects which implement HTML, CSS , JS concepts.
+a collection of certain projects which implement HTML, CSS , JS concepts
